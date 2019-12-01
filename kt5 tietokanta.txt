@@ -1,0 +1,12 @@
+CREATE TABLE `kirjat` (
+  `nimi` char(50) NOT NULL,
+  `kirjailija` varchar(50) DEFAULT NULL,
+  `jvuosi` int(10) DEFAULT NULL,
+
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+ 
+INSERT INTO `kirjat` (`nimi`, `kirjailija`, `jvuosi`) VALUES
+('Sokeita hetkiä', 'Maria Mustaranta', 2017),
+('Puhdistus', 'Sofi Oksanen', 2008),
+('Elämä elämältä', 'Kate Atkinson', 2013);
